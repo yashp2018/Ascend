@@ -1,0 +1,568 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>ASCEND_2025</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container">
+                    <div class="header_bottom_border">
+                        <div class="row align-items-center">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="img/logo.png" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-xl-6 col-lg-6">
+                                <div class="main-menu  d-none d-lg-block">
+                                    <nav>
+                                        <ul id="navigation">
+                                            <li><a href="index.html">Home</a></li>
+                                            <li><a href="event.html">Events</a></li>
+                                            
+                                            <li><a href="about.html">About<i class="ti-angle-down"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="sponsor.html">Sponsors</a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="elements.html">Gallary </i></a>
+                                            </li>
+                                            <li><a href="contact.html">Contact</a></li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                            <div class="col-xl-3 col-lg-3 d-none d-lg-block">
+                                <div class="buy_tkt">
+                                    <div class="book_btn d-none d-lg-block">
+                                        <a href="https://forms.gle/ZKupoFuGS2snv6PG7">Registration</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="mobile_menu d-block d-lg-none"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+    <!-- slider_area_start -->
+    <div class="slider_area">
+        <div class="single_slider  d-flex align-items-center slider_bg_1 overlay">
+            <div class="container">
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-xl-12">
+                        <div class="slider_text text-center">
+                            <div class="shape_1 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".2s">
+                                <img src="img/shape/shape_1.svg" alt="">
+                            </div>
+                            <div class="shape_2 wow fadeInDown" data-wow-duration="1s" data-wow-delay=".2s">
+                                <img src="img/shape/shape_2.svg" alt="">
+                            </div>
+                            <span class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s" style="color:#fff">28<sup style="color:#fff">th</sup> Feb & 1<sup style="color:#fff">st</sup> March 2025</span>
+                            <h3 class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".4s">Ascend  2K25</h3>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">K.K Wagh Institute Of Engineering Education and Research, Nashik</p>
+                            <p class="wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".5s">Sponsored by The Garage Cafe</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- slider_area_end -->
+
+     <!-- about_area_end  -->
+
+     <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #181818;
+            
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #ffffff;
+            
+        }
+
+        .team-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+
+        .team-member {
+            background: #ffffff;
+            padding: 20px;
+            width: 220px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        .team-member:hover {
+            transform: translateY(-5px);
+        }
+
+        .team-member img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+
+        /* Hover effect: Zoom out + wave animation */
+        .team-member img:hover {
+            transform: scale(0.9) rotate(-3deg);
+        }
+
+        .team-member h3 {
+            font-size: 1.1rem;
+            color: #333;
+        }
+
+        .team-member p {
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        /* Row styling */
+        .first-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .second-row {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+    </style>
+
+
+<div>
+    <h2 style="color: white; font-family: 'Poppins', sans-serif; font-size: 2.5rem; text-align: center; font-weight: bold;">
+        Patron
+    </h2>
+</div>
+<div class="team-container">
+    <div class="first-row">
+        <div class="team-member">
+            <img src="img/Faculty/samir.jpg" alt="Member">
+            <h3>Shri. Sameer B. Wagh</h3>
+            <p>Chairman</p>
+        </div>
+        <div class="team-member">
+            <img src="img/Faculty/principle.jpg" alt="Member">
+            <h3>Dr. Keshav N. Nandurkar</h3>
+            <p>Director</p>
+        </div>
+    </div>
+</div>
+    <br>
+
+ 
+
+<!-- Second Section -->
+
+<div>
+    <br>
+    <h2 style="color: white; font-family: 'Poppins', sans-serif; font-size: 2.5rem; text-align: center; font-weight: bold;">
+        Faculty
+    </h2>
+</div>
+
+
+    <div class="second-row">
+        <div class="team-member">
+            <img src="img/Faculty/Dr.V.C.Bagal_S.jpg" alt="Member">
+            <h3>Dr.Vandana.C.Bagal</h3>
+            <p>I/c Head,<br>
+            Department of MCA</p>
+        </div>
+        <div class="team-member">
+            <img src="img/Faculty/Dr.V.R.Dhawale_S.jpg" alt="Member">
+            <h3>Dr.V.R.Dhawale</h3>
+            <p>Asst.Professor(Ph.D(CSE), MCA)</p>
+        </div>
+        <div class="team-member">
+            <img src="img/Faculty/swarna_h_Patil.jpg" alt="Member">
+            <h3>Ms.Swarna H.Patil</h3>
+            <p>Asst.Professor(MCA)</p>
+        </div>
+    </div>
+    <br><br>
+
+   
+</div>
+
+<!-- Third Section -->
+<div>
+    <h2 style="color: white; font-family: 'Poppins', sans-serif; font-size: 2.5rem; text-align: center; font-weight: bold;">
+       Student Co-Ordinator
+    </h2>
+</div>
+
+
+   
+
+    <div class="team-container">
+        <div class="first-row">
+            <div class="team-member">
+                <img src="img/Faculty/Shahu.png" alt="Member">
+                <h3>Shahu Rasal</h3>
+                <p>Student Co-Ordinator</p>
+            </div>
+            <div class="team-member">
+                <img src="img/team/cordinator1.jpg" alt="Member">
+                <h3>Janhavi Lindait</h3>
+                <p>Student Co-Ordinator</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+   
+
+    <!-- about_area_start  -->
+    <div class="performar_area black_bg">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title mb-80">
+                        <h3 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">Events</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/BGMI.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>BGMI</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Yash Shinde</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 8010693522</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/reverse.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Reverse Coding</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Samir Shaikh</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 9662309662</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/Mind Quiz.jpeg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Mind Quiz</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Kaushal Waray</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 9175740449</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/Escape.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Escape Room</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Jay Lomte</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 9156506738</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/poster.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Poster Presentation</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Krushna Sondkar</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 7972418355</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6">
+                            <div class="single_performer wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
+                                <div data-tilt class="thumb">
+                                    <img src="img/performer/tech.jpg" alt="">
+                                </div>
+                                <div class="performer_heading">
+                                    <h4>Tech Treasure Hunt</h4>
+                                    <h3 class="text-danger"> Co-ordinator : <span class="span1" style="color:#fff">Rani Gangurde</span></h3>
+                                    <h3 class="text-danger"> Contact : <span class="span1" style="color:#fff">+91 7058553804</span></h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="program_details_area detials_bg_1 overlay2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="section_title text-center mb-80  wow fadeInRight" data-wow-duration="1s" data-wow-delay=".3s">
+                        <h3>Program Details</h3>
+                    </div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="program_detail_wrap">
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">1<sup style="color:#fff">st</sup> March 2025</h4>
+                                </div>
+                                <div class="thumb wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/BGMI.jpeg" alt="">
+                                </div>
+                                <h4 class="wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">BGMI</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">28<sup style="color:#fff">th</sup> Feb. 2025</h4>
+                                </div>
+                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/reverse.jpg" alt="">
+                                </div>
+                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Reverse coding</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">28<sup style="color:#fff">th</sup> Feb. 2025</h4>
+                                </div>
+                                <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/Mind Quiz.jpeg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Mind Quiz</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">1<sup style="color:#fff">st</sup> March 2025</h4> 
+                                </div>
+                                <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/Escape.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Escape Room</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                    <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">28<sup style="color:#fff">th</sup> Feb. 2025</h4>
+                                </div>
+                                <div class="thumb  wow fadeInUp" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/poster.jpg" alt="">
+                                </div>
+                                <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".6s">Poster Presentation</h4>
+                            </div>
+                        </div>
+                        <div class="single_propram">
+                            <div class="inner_wrap">
+                                <div class="circle_img"></div>
+                                <div class="porgram_top">
+                                     <span class=" wow fadeInLeft" data-wow-duration="1s" data-wow-delay=".3s">10.00 AM Onwards</span>
+                                    <h4 class=" wow fadeInUp" data-wow-duration="1s" data-wow-delay=".4s">1<sup style="color:#fff">st</sup> March 2025</h4>
+                                </div>
+                                <div class="thumb wow fadeInRight" data-wow-duration="1s" data-wow-delay=".5s">
+                                    <img src="img/performer/tech.jpg" alt="">
+                                </div>
+                                <h4 class="wow fadeInRight" data-wow-duration="1s" data-wow-delay=".6s">Tech Treasure Hunt</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- footer_start  -->
+    <footer class="footer padding:23px;"  >
+        <div class="container">
+            <div class="footer_top">
+                <div class="row justify-content-center text-center">
+                    <div class="col-lg-6 col-md-8">
+                        <div class="footer_widget">
+                            <div class="address_details">
+                                <h4 style="color: red; font-size: 1.5rem; ">1<sup>st</sup> March 2025</h4>
+                                <h3 style="font-size: 2rem;  color: white;">K.K Wagh Institute Of Engineering Education and Research,<br>Nashik </h3>
+                                <p style="color: #bbb; font-size: 1rem;">The event regularly attracts a diverse range of attendees from around the world.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <!-- Quick Links -->
+                <div class="row mt-4 text-center">
+                    <div class="col-md-4">
+                        <h5 style="color: red;">Quick Links</h5>
+                        <ul style="list-style: none; padding: 0;">
+                            <li><a href="event.html" style="color: white; text-decoration: none;">Event</a></li>
+                            <li><a href="about.html" style="color: white; text-decoration: none;">About</a></li>
+                            <li><a href="contact.html" style="color: white; text-decoration: none;">Contact Us</a></li>
+                        </ul>
+                    </div>
+    
+                    <!-- Social Media -->
+                    <div class="col-md-4">
+                        <h5 style="color: red; ">Follow Us</h5>
+                        <div class="social-icons" style="display: flex; justify-content: center; gap: 15px;">
+                            <a href="https://www.instagram.com/ascend_kkwagh?igsh=OXhxZjJ1YmM5b2Y=" target="_blank" style="color: white; font-size: 1.5rem;"><i class="fa fa-instagram"></i></a>
+                            >
+                            <a href="mailto:kkwaghascend@gmail.com" style="color: white; font-size: 1.5rem;"><i class="fa fa-envelope"></i></a>
+                            
+                        </div>
+                    </div>
+    
+                    <!-- Contact -->
+                    <div class="col-md-4">
+                        <h5 style="color: red;">Contact</h5>
+                        <p style="color: white;">Email: kkwaghascend@gmail.com</p>
+                        <p style="color: white;">Shahu Rasal: +91 8010693522</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!-- Copyright Section -->
+        <div class="copy-right_text text-center" style="margin-top: 30px; padding-top: 20px; border-top: 1px solid #444;">
+            <p class="copy_right">
+                Copyright &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved | Designed with 
+                <i class="fa fa-heart" style="color: red;"></i> by <a href="https://colorlib.com" target="_blank" style="color: red; text-decoration: none;">Colorlib</a>
+            </p>
+        </div>
+    </footer>
+    
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/tilt.jquery.js"></script>
+    <script src="js/plugins.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
